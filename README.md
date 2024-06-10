@@ -4,38 +4,46 @@ Portafolio Web
 
 ---
 
-## Versiones
-
-- **1.0.0**: Versión inicial del portafolio web.
-- **1.1.0**: Actualización del README para mejorar la claridad y la organización.
-
----
-
 ## Uso
 
 Página web hecha para los cursos de Alura Latam, es parte de los Challengers que se realizan en los cursos para la especialización front-end.
 
-Elementos principales de la página:
+## Descripción
 
-- **Título del sitio web**
-- **Menú principal**
-- **Sección acerca de mí**
-- **Sección de pasatiempos y habilidades blandas**
-- **Sección Formaciones y Cursos**
-- **Sección de experiencia en programación**
-- **Formulario de contacto**
-- **Rodapié**
+El portafolio está diseñado como una página web interactiva que presenta diferentes secciones, incluyendo:
 
----
+- **Menú:** Navegación fácil entre las diferentes secciones del portafolio.
+- **Header/Title/Hero:** Sección destacada que presenta una breve introducción sobre mí y mis habilidades.
+- **Sobre mí:** Información personal y profesional.
+- **Skills:** Lista de habilidades y tecnologías en las que tengo experiencia.
+- **Hobbies:** Mis pasatiempos e intereses personales.
+- **Formación académica:** Mis estudios y cursos relevantes.
+- **Experiencia Profesional/Proyectos:** Descripción de proyectos destacados y experiencia laboral.
+- **Contacto:** Formulario para ponerse en contacto conmigo.
 
-## Créditos
+## Contenido del Repositorio
 
-- **Autor:** Erick Ivan Cruz Martinez
-- **Proyecto base:** Alura Latam
-- **Tecnologías utilizadas:** HTML, CSS, JavaScript.
+- **index.html:** Archivo HTML que contiene la estructura del portafolio.
+- **style.css:** Archivo CSS que contiene los estilos para el portafolio.
+- **validacion.js:** Archivo JavaScript para validar el formulario de contacto.
 
----
+## Uso
 
-## Contacto
+1. Abre el archivo `index.html` en tu navegador web.
+2. Navega a través del menú para explorar las diferentes secciones del portafolio.
+3. Utiliza el formulario de contacto para enviarme un mensaje.
 
-Para preguntas o sugerencias, contáctame en ivangtxtrab10@gmail.com.
+## Tecnologías Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Autor
+
+- Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
+- Créditos a [Alura Latam](https://www.linkedin.com/in/ivan-cruz-1906mx/).
+
+## Despliegue
+
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Portafolio Web](https://challenge-one-portafolio-latam-two.vercel.app/).
