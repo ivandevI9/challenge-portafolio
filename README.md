@@ -1,49 +1,46 @@
-# Título del Proyecto
+# Portafolio de Fulana de Tal
 
-Portafolio Web
+Este es el portafolio personal de Fulana de Tal, un sitio web diseñado para mostrar su información personal, habilidades, proyectos y formas de contacto.
 
----
+## Características
 
+- **Menú de navegación:** Permite a los visitantes navegar fácilmente por diferentes secciones del sitio, como "Sobre mí", "Skills", "Hobbies", "Formación", "Proyectos" y "Contacto".
+- **Sección "Sobre mí":** Proporciona una breve descripción de Fulana de Tal y su trayectoria.
+- **Sección "Skills":** Muestra las habilidades de Fulana de Tal en diferentes tecnologías y herramientas.
+- **Sección "Hobbies":** Presenta los pasatiempos e intereses de Fulana de Tal.
+- **Sección "Formación académica":** Detalla la formación académica de Fulana de Tal, incluyendo cursos y titulaciones.
+- **Sección "Proyectos":** Exhibe algunos de los proyectos realizados por Fulana de Tal, con enlaces a los repositorios correspondientes en GitHub.
+- **Sección "Contacto":** Proporciona un formulario de contacto para que los visitantes puedan enviar mensajes a Fulana de Tal.
+
+  
 ## Uso
 
-Página web hecha para los cursos de Alura Latam, es parte de los Challengers que se realizan en los cursos para la especialización front-end.
-
-## Descripción
-
-El portafolio está diseñado como una página web interactiva que presenta diferentes secciones, incluyendo:
-
-- **Menú:** Navegación fácil entre las diferentes secciones del portafolio.
-- **Header/Title/Hero:** Sección destacada que presenta una breve introducción sobre mí y mis habilidades.
-- **Sobre mí:** Información personal y profesional.
-- **Skills:** Lista de habilidades y tecnologías en las que tengo experiencia.
-- **Hobbies:** Mis pasatiempos e intereses personales.
-- **Formación académica:** Mis estudios y cursos relevantes.
-- **Experiencia Profesional/Proyectos:** Descripción de proyectos destacados y experiencia laboral.
-- **Contacto:** Formulario para ponerse en contacto conmigo.
-
-## Contenido del Repositorio
-
-- **index.html:** Archivo HTML que contiene la estructura del portafolio.
-- **style.css:** Archivo CSS que contiene los estilos para el portafolio.
-- **validacion.js:** Archivo JavaScript para validar el formulario de contacto.
-
-## Uso
-
-1. Abre el archivo `index.html` en tu navegador web.
-2. Navega a través del menú para explorar las diferentes secciones del portafolio.
-3. Utiliza el formulario de contacto para enviarme un mensaje.
+1. **Visualización del Portafolio:** Abre el archivo `index.html` en tu navegador web para ver el portafolio completo de Fulana de Tal.
+2. **Exploración de Secciones:** Utiliza el menú de navegación para explorar las diferentes secciones del portafolio, como "Sobre mí", "Skills", "Hobbies", "Formación", "Proyectos" y "Contacto".
+3. **Contacto:** Si deseas ponerte en contacto con Fulana de Tal, utiliza el formulario de contacto en la sección correspondiente.
 
 ## Tecnologías Utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
-## Autor
+## Instalación
 
+1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
+
+## Créditos
+
+- Este proyecto fue desarrollado como parte de un ejercicio de desarrollo web.
+- Las imágenes utilizadas fueron obtenidas de recursos gratuitos de Internet.
+- Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
 - Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
-- Créditos a [Alura Latam](https://www.linkedin.com/in/ivan-cruz-1906mx/).
 
 ## Despliegue
 
 El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Portafolio Web](https://challenge-one-portafolio-latam-two.vercel.app/).
+
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.
