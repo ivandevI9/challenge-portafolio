@@ -31,6 +31,11 @@ a {
     color: var(--cor-de-link);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
 Lo que es el BEM?
@@ -53,6 +58,7 @@ section.menu {
     flex-direction: row;
     padding: 32px 0 32px 0;
     margin: 0 auto;
+   
 
     .menu__header {
         display: flex;
@@ -61,7 +67,13 @@ section.menu {
         gap: 8px;
     }
 
-    nav {}
+    .menu__list {
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
 
     .menu__header img {
         flex-shrink: 0;
@@ -78,12 +90,12 @@ section.menu {
     }
 
 
-    .menu__list__item:last-child {
-        font-weight: bold;
-    }
 
     .menu__list__item__contato {
-        display: none;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.78px;
     }
 
 
@@ -122,17 +134,22 @@ section.title {
         align-items: center;
         flex-direction: column;
         align-items: flex-start;
+        gap: 24px;
     }
 
     .title__bio {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
         font-size: 52px;
         line-height: 61.05px;
+
     }
 
     .title__subsection {
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
         font-size: 22px;
         line-height: 25.83px;
-        font-weight: lighter;
     }
 
     .title__network {
@@ -140,6 +157,13 @@ section.title {
         flex-direction: row;
         padding: 0;
         gap: 32px;
+    }
+
+    .title__network__item {
+        font-family: "Raleway", sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 18.78px;
     }
 
 }
@@ -162,18 +186,21 @@ section.about {
     }
 
     .about__title {
-        width: 100%;
-        font-size: 32px;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
+        font-size: 32px;
         line-height: 37.57px;
 
     }
 
     .about__paragraph {
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
         width: 100%;
         font-size: 16px;
         line-height: 18.78px;
     }
+
 }
 
 
@@ -186,7 +213,12 @@ section.skills {
     margin: 25px auto;
     gap: 32px;
 
-
+    .skills__title {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37.57px;
+    }
 
     .skills__line {
         width: 1136px;
@@ -215,6 +247,13 @@ section.skills {
         margin: 0px;
     }
 
+    .skills__name {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+
 }
 
 
@@ -228,6 +267,13 @@ section.hobbies {
     align-items: center;
     margin: 82px auto;
     gap: 32px;
+
+    .hobbies__title {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37.57px;
+    }
 
     .hobbies__line {
         width: 1136px;
@@ -256,6 +302,13 @@ section.hobbies {
         margin: 0px;
     }
 
+    .hobbies__name {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.78px;
+    }
+
 
 }
 
@@ -273,8 +326,10 @@ section.academic {
     gap: 32px;
 
     .academic__title {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
         font-size: 32px;
-        justify-content: center;
+        line-height: 37.57px;
     }
 
 
@@ -305,11 +360,17 @@ section.academic {
     }
 
     .academic__courses__list h4 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
         font-size: 22px;
+        line-height: 25.83px;
     }
 
     .academic__courses__list p {
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
         font-size: 16px;
+        line-height: 18.78px;
     }
 
     .academic__courses__item__img {
@@ -350,17 +411,24 @@ section.experience {
     gap: 32px;
 
     .experience__section__title {
-        font-size: 32px;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
+        font-size: 32px;
+        line-height: 37.57px;
     }
 
     .experience__title {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
         font-size: 22px;
+        line-height: 25.83px;
     }
 
     .experience__text {
-        font-size: 16px;
+        font-family: "Raleway", sans-serif;
         font-weight: 500;
+        font-size: 16px;
+        line-height: 18.78px;
     }
 
     .experiencie__box1 {
@@ -381,16 +449,6 @@ section.experience {
 
     }
 
-    .experience__title {
-        font-size: 22px;
-        line-height: 25.83px;
-
-    }
-
-    .experience__text {
-        font-size: 16px;
-        line-height: 18.78px;
-    }
 
     .experience__description {
         display: flex;
@@ -405,12 +463,27 @@ section.experience {
         width: auto;
         height: auto;
 
+
+    }
+
+    .experience__repo a {
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.78px;
     }
 
     .experience__demo {
         width: auto;
         height: auto;
 
+    }
+
+    .experience__demo a {
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.78px;
     }
 
     .experiencia__botao--repo {
@@ -482,14 +555,15 @@ section.formcontato {
         gap: 16px;
     }
 
-   
+
     .formcontato__text {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-     
+
     }
-    .formcontato__text-grupo{
+
+    .formcontato__text-grupo {
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -498,17 +572,19 @@ section.formcontato {
     .formcontato__title {
         padding: 0;
         margin: 0;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
         font-size: 32px;
         line-height: 37.57px;
-        font-weight: 700;
     }
 
     .formcontato__subtext {
         padding: 5px;
         margin: 0;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
         font-size: 16px;
         line-height: 18.78px;
-        font-weight: 500;
 
     }
 
@@ -519,17 +595,11 @@ section.formcontato {
         gap: 32px;
     }
 
-    * {
-        box-sizing: border-box;
-    }
 
-    .formcontato__input-container {
-      
-    }
 
     .group {
         position: relative;
-  
+
     }
 
     input {
@@ -648,14 +718,14 @@ section.formcontato {
         }
     }
 
-    
+
     .formcontato__textarea {
         padding: 10px 20px;
         font-size: 16px;
         width: 100%;
     }
 
-  
+
     .formcontato__botao-container {
         width: auto;
         height: auto;
@@ -671,6 +741,11 @@ section.formcontato {
         background-color: #2A7AE4;
         border: 1px solid #2A7AE4;
         /* Borde sólido */
+
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.78px;
     }
 
 
@@ -686,6 +761,8 @@ section.footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #2A7AE4;
+    color: white;
 
     .footer__rodape {
         display: flex;
@@ -695,6 +772,7 @@ section.footer {
         justify-content: center;
         align-items: center;
         padding: 32px;
+        text-align: center;
     }
 
     .footer__rodape p {
@@ -716,35 +794,11 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     /* Menú */
     section.menu {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
         justify-content: space-around;
-        gap: 0;
-
-        .menu__header {}
-
-        .menu__list {
-            width: 100%;
-            padding: 0;
-            gap: 0;
-        }
-
-        .menu__list {
-            display: none;
-        }
-
-        .menu__list__item__contato {
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
+        align-items: center;
 
         nav {
-            display: flex;
-            width: auto;
-            justify-content: center;
-            align-items: center;
+            display: none;
         }
     }
 
@@ -752,16 +806,13 @@ Utiliza las referencias de los breakpoints @media abajo */
     section.title {
         width: 100%;
         margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding: 15px 10px;
 
 
         .title__div {
             display: flex;
-            width: 80%;
-            gap: 0;
+            width: 100%;
+
         }
 
         .title__container {
@@ -800,16 +851,14 @@ Utiliza las referencias de los breakpoints @media abajo */
     /* About */
     section.about {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding: 15px 10px;
 
         .about__container {
             display: flex;
             flex-direction: column;
-            width: 80%;
+            width: 100%;
             justify-content: center;
+            text-align: center;
 
         }
 
@@ -852,9 +901,8 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Formación Académica*/
     section.academic {
         width: 100%;
-        gap: 0;
         margin: 0;
-        padding: 0;
+        padding: 15px 10px;
 
 
         .academic__courses {
@@ -873,10 +921,12 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     section.experience {
-        display: flex;
         width: 100%;
+        margin: 0;
+        padding: 15px 10px;
 
         .experiencie__box1 {
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -888,18 +938,21 @@ Utiliza las referencias de los breakpoints @media abajo */
         }
 
         .experiencie__box2 {
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
         }
 
         .experiencie__box3 {
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
         }
 
         .experiencie__box4 {
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -908,13 +961,14 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     section.formcontato {
         width: 100%;
-        
+        padding: 30px 10px;
 
         .formcontato__contacto {
             justify-content: center;
             width: 100%;
         }
-        .formcontato__text{
+
+        .formcontato__text {
             gap: 50px;
         }
 
@@ -929,18 +983,28 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Mobile*/
 @media (max-width: 767px) {
 
+
+    section.menu {
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
     /*Titulo*/
     section.title {
-        width: auto;
+        width: 100%;
+        height: auto;
+        padding: 15px 10px;
         margin: 0;
         display: flex;
         flex-direction: column;
 
         .title__div {
-            width: 80%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+            text-align: center;
         }
 
         .title__container {
@@ -949,6 +1013,8 @@ Utiliza las referencias de los breakpoints @media abajo */
 
         .title__network {
             display: flex;
+            flex-direction: row;
+            justify-content: space-between;
             width: 100%;
             gap: 8px;
             flex-wrap: wrap;
@@ -957,10 +1023,20 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     /*Sección sobre mi*/
 
+    section.about {
+        width: 100%;
+        padding: 15px 10px;
+
+        .about__container {
+            width: 100%;
+        }
+    }
+
     /*Skills*/
     section.skills {
         width: 100%;
-        margin: 10px 10px;
+        padding: 15px 10px;
+        margin: 0;
 
         .skills__line {
             display: flex;
@@ -976,7 +1052,8 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Hobbies*/
     section.hobbies {
         width: 100%;
-        margin: 10px 10px;
+        padding: 15px 10px;
+        margin: 0;
 
         .hobbies__line {
             width: 100%;
@@ -990,6 +1067,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Formación Académica*/
     section.academic {
         width: 100%;
+        padding: 15px 10px;
 
         .academic__title {
             text-align: center;
@@ -997,7 +1075,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
         .academic__courses {
             display: flex;
-            width: 80%;
+            width: 100%;
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
@@ -1008,13 +1086,17 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Experiencia Profesional*/
     section.experience {
 
+        width: 100%;
+        margin: 0;
+        padding: 15px 10px;
+
         .experience__section__title {
             text-align: center;
         }
 
         .experiencie__box1 {
             display: flex;
-            width: 80%;
+            width: 100%;
             align-items: center;
             justify-content: center;
         }
@@ -1025,19 +1107,19 @@ Utiliza las referencias de los breakpoints @media abajo */
         }
 
         .experiencie__box2 {
-            width: 80%;
+            width: 100%;
             align-items: center;
             justify-content: center;
         }
 
         .experiencie__box3 {
-            width: 80%;
+            width: 100%;
             align-items: center;
             justify-content: center;
         }
 
         .experiencie__box4 {
-            width: 80%;
+            width: 100%;
             align-items: center;
             justify-content: center;
         }
@@ -1051,38 +1133,47 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Contacto*/
     section.formcontato {
         width: 100%;
+        margin: 0;
+        padding: 30px 10px;
         align-items: center;
         justify-content: center;
 
 
-        .formcontato__text {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-
         .formcontato__contacto {
-            width: 80%;
+            width: 100%;
+            height: auto;
             align-items: center;
             justify-content: center;
+        }
+
+        .formcontato--esquerda {
+            display: none;
+        }
+
+        .formcontato__text {
+            width: 100%;
 
         }
 
         .formcontato__form {
-
+            width: 100%;
             display: flex;
             flex-direction: column;
-            width: 100%;
+            align-items: center;
+
         }
+
 
         .formcontato__input-container {
             display: flex;
             width: 100%;
+            margin: 0;
         }
+
         .group {
             width: 100%;
             position: relative;
-      
+
         }
 
     }
