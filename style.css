@@ -55,6 +55,7 @@ section.menu {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
     flex-direction: row;
     padding: 32px 0 32px 0;
     margin: 0 auto;
@@ -96,6 +97,8 @@ section.menu {
         font-weight: 700;
         font-size: 16px;
         line-height: 18.78px;
+        margin: 0;
+        padding: 0;
     }
 
 
