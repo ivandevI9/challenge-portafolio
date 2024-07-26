@@ -59,6 +59,9 @@ section.menu {
     flex-direction: row;
     padding: 32px 0 32px 0;
     margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background-color: white;
    
 
     .menu__header {
@@ -111,7 +114,7 @@ section.menu {
 section.title {
     height: 100%;
     display: flex;
-    margin: 32px auto;
+    padding: 125px 0 0 0;
     justify-content: space-around;
 
 
@@ -180,6 +183,7 @@ section.about {
     display: flex;
     justify-content: center;
     background: #EAF2FD;
+    padding: 125px 0;
 
     .about__container {
         width: 1136px;
@@ -213,7 +217,7 @@ section.skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 25px auto;
+    padding: 125px 0;
     gap: 32px;
 
     .skills__title {
@@ -268,7 +272,7 @@ section.hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 82px auto;
+    padding: 125px 0;
     gap: 32px;
 
     .hobbies__title {
@@ -325,7 +329,7 @@ section.academic {
     justify-content: flex-start;
     align-items: center;
     background: #EAF2FD;
-    padding: 82px;
+    padding: 125px 0;
     gap: 32px;
 
     .academic__title {
@@ -406,11 +410,11 @@ section.academic {
 /* experiencia*/
 
 section.experience {
-    width: 1136px;
+    width: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin: 50px auto;
+    padding: 125px 0;
     gap: 32px;
 
     .experience__section__title {
@@ -549,7 +553,7 @@ section.formcontato {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 64px 0;
+    padding: 125px 0;
 
     .formcontato__contacto {
         width: 1136px;
@@ -766,6 +770,7 @@ section.footer {
     align-items: center;
     background-color: #2A7AE4;
     color: white;
+    padding: 50px;
 
     .footer__rodape {
         display: flex;
@@ -774,7 +779,6 @@ section.footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 32px;
         text-align: center;
     }
 
@@ -809,7 +813,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     section.title {
         width: 100%;
         margin: 0;
-        padding: 15px 10px;
+        padding: 150px 10px 10px 15px;
 
 
         .title__div {
@@ -997,7 +1001,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     section.title {
         width: 100%;
         height: auto;
-        padding: 15px 10px;
+        padding: 150px 15px 10px 15px;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -1017,7 +1021,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         .title__network {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             width: 100%;
             gap: 8px;
             flex-wrap: wrap;
