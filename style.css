@@ -62,7 +62,7 @@ section.menu {
     position: fixed;
     top: 0;
     background-color: white;
-   
+
 
     .menu__header {
         display: flex;
@@ -555,6 +555,10 @@ section.formcontato {
     gap: 10px;
     padding: 125px 0;
 
+    .formcontato__img {
+        border-radius: 5px;
+    }
+
     .formcontato__contacto {
         width: 1136px;
         display: flex;
@@ -614,22 +618,23 @@ section.formcontato {
         padding: 10px 10px 10px 5px;
         display: block;
         width: 100%;
-        border: none;
-        border-bottom: 1px solid #757575;
+        border-radius: 5px;
+        border: 1px solid var(--Dark-Grey, #262626)
     }
 
     input:focus {
         outline: none;
     }
 
+
     label {
         color: #999;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: normal;
         position: absolute;
         pointer-events: none;
-        left: 5px;
-        top: 10px;
+        left: 10px;
+        top: 15px;
         transition: 0.2s ease all;
         -moz-transition: 0.2s ease all;
         -webkit-transition: 0.2s ease all;
@@ -677,12 +682,11 @@ section.formcontato {
 
     .highlight {
         position: absolute;
-        height: 60%;
-        width: 100px;
         top: 25%;
         left: 0;
         pointer-events: none;
         opacity: 0.5;
+        font-size: 10px;
     }
 
     input:focus~.highlight {
@@ -730,11 +734,12 @@ section.formcontato {
         padding: 10px 20px;
         font-size: 16px;
         width: 100%;
+        border-radius: 5px;
     }
 
 
     .formcontato__botao-container {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
@@ -742,20 +747,16 @@ section.formcontato {
         color: white;
         width: 144px;
         height: 51px;
-        /* Altura fija */
         border: none;
-        /* Sin borde */
         background-color: #2A7AE4;
         border: 1px solid #2A7AE4;
-        /* Borde sólido */
-
+        border-radius: 5px;
         font-family: "Raleway", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 18.78px;
+        cursor: pointer;
     }
-
-
 
 }
 
@@ -982,6 +983,12 @@ Utiliza las referencias de los breakpoints @media abajo */
         .formcontato__img {
             display: none;
         }
+
+        .formcontato__botao-container {
+            display: flex;
+            justify-content: center;
+        }
+
     }
 
 }
@@ -1182,6 +1189,10 @@ Utiliza las referencias de los breakpoints @media abajo */
             width: 100%;
             position: relative;
 
+        }
+
+        .formcontato__botao {
+            width: 100%;
         }
 
     }
