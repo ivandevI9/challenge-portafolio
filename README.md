@@ -15,7 +15,7 @@ Este es el portafolio personal de Fulana de Tal, un sitio web diseñado para mos
   
 ## Uso
 
-1. **Visualización del Portafolio:** Abre el archivo `index.html` en tu navegador web para ver el portafolio completo de Fulana de Tal.
+1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://challenge-one-portafolio-latam-two.vercel.app/).
 2. **Exploración de Secciones:** Utiliza el menú de navegación para explorar las diferentes secciones del portafolio, como "Sobre mí", "Skills", "Hobbies", "Formación", "Proyectos" y "Contacto".
 3. **Contacto:** Si deseas ponerte en contacto con Fulana de Tal, utiliza el formulario de contacto en la sección correspondiente.
 
@@ -28,6 +28,12 @@ Este es el portafolio personal de Fulana de Tal, un sitio web diseñado para mos
 ## Instalación
 
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
+
+```bash
+   https://github.com/IvandevI9/challenge-portafolio.git
+```
+
+2. Abre el archivo `index.html` en tu navegador web.
 
 ## Créditos
 
