@@ -15,7 +15,7 @@ Este es el portafolio personal de Fulana de Tal, un sitio web diseñado para mos
   
 ## Uso
 
-1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://challenge-one-portafolio-latam-two.vercel.app/).
+1. **Visualización del Proyecto:** Para visualizar el proyecto, sigue los pasos que se encuentran en la sección [Instalación](#instalación) o visita el enlace desplegado en [Vercel](https://challenge-one-portafolio-latam-two.vercel.app/).
 2. **Exploración de Secciones:** Utiliza el menú de navegación para explorar las diferentes secciones del portafolio, como "Sobre mí", "Skills", "Hobbies", "Formación", "Proyectos" y "Contacto".
 3. **Contacto:** Si deseas ponerte en contacto con Fulana de Tal, utiliza el formulario de contacto en la sección correspondiente.
 
